@@ -77,3 +77,13 @@ section {
   margin: 0;
   vertical-align: middle;
 }
+
+.main {
+  text-align: left;
+  vertical-align: middle;
+}
+
+p {
+  max-width: 25em;
+  margin: 1.5em;
+}
