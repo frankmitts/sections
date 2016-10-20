@@ -14,7 +14,7 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing:border-box;
+  box-sizing:inherit;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
   display: inline-block;
 }
 
-a hover {
+a:hover {
   background-color: #666;
   color: #f2f2f2;
   border: 3px solid #666;
@@ -64,7 +64,7 @@ body {
 }
 
 h2 {
-max-width: 25em;
+  max-width: 25em;
 }
 
 div {
